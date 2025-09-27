@@ -1,0 +1,16 @@
+name: geo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - gdal>=3.10
+  - rasterio
+  - shapely
+  - scikit-image
+  - pyproj
+  - geopandas
+  - matplotlib
+  - folium
+  - ipykernel
+  - jupyterlab
+  - pyqt

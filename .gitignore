@@ -1,0 +1,33 @@
+## Python
+__pycache__/
+*.pyc
+
+## Jupyter
+.ipynb_checkpoints/
+
+## Data
+# Raw scans: keep the folder, ignore files by default
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/README.md
+
+# Outputs: ignore all by default, but allow small/public artifacts
+data/outputs/*
+!data/outputs/*.png
+!data/outputs/*.html
+!data/outputs/*.geojson
+# keep debug previews too
+!data/outputs/debug/
+!data/outputs/debug/*.png
+# still ignore heavy geotiffs unless you *really* want them
+data/outputs/*.tif
+data/outputs/*.tiff
+
+# GCPs: keep JSON files
+data/gcps/*
+!data/gcps/*.json
+!data/gcps/.gitkeep
+!data/gcps/README.md
+
+## OS
+.DS_Store
