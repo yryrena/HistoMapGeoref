@@ -42,7 +42,7 @@ historical_map_georef/
 
 ## Example Data
 
-The sample images in `data/raw/` and referenced in the **Usage** section are taken from: *《中国近五百年旱涝分布图集》*, page 18 (1494 CE, 明弘治七年). These scans are included as examples to demonstrate the workflow. You can substitute your own historical maps following the same pipeline. 
+The sample images in `data/raw/` and referenced in the **Usage** section are taken from: **《中国近五百年旱涝分布图集》(Atlas of Droughts and Floods in China over the Past 500 Years)**, page 18 (1494 CE, 明弘治七年). These scans are included as examples to demonstrate the workflow. You can substitute your own historical maps following the same pipeline. 
 
 ![Georeferenced 1494 map](data/raw/map18_1494.png)
 
