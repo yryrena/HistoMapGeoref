@@ -4,11 +4,11 @@ This repository provides a lightweight pipeline for georeferencing scanned histo
 
 ```mermaid
 flowchart LR
-    A[1_raw - Scanned Map Input] --> B[2_pick_gcps - Pick Ground Control Points GCPs]
-    B --> C[3_gcps_json - Save GCPs gcps.json]
-    C --> D[4_warp - Warp Raster with Thin Plate Spline TPS]
-    D --> E[5_outputs - GeoTIFF & Visualization Exports]
-    E --> F[6_blue_contours - Optional Extract Blue Contours GeoJSON]
+    A[Scanned Map Input] --> B[Pick Ground Control Points]
+    B --> C[Save GCPs gcps.json]
+    C --> D[Warp Raster with Thin Plate Spline]
+    D --> E[GeoTIFF & Visualization Exports]
+    E --> F[Optional Extract Blue Contours GeoJSON]
 
     style A fill:#f6e0b5,stroke:#444,stroke-width:1px
     style B fill:#eea990,stroke:#444,stroke-width:1px
