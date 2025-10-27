@@ -115,7 +115,7 @@ Run `notebooks/visualize_and_export.ipynb` to generate:
 
 - **Interactive web map (HTML)**  
    
-  [View Interactive Folium map](https://yryrena.github.io/historical_map_georef/map18_1494_interactive.html)
+  [View Interactive Folium map](https://yryrena.github.io/HistoMapGeoref/map18_1494_interactive.html)
   
   [Download interactive Folium map (HTML)](data/outputs/map18_1494_interactive.html) 
 
