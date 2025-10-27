@@ -33,7 +33,7 @@ flowchart LR
 ## Repo Layout
 
 ```
-historical_map_georef/
+HistoMapGeoref/
 ├── data/
 │   ├── raw/           ## example: original scanned maps (input images)
 │   ├── gcps/          ## example: saved GCP (gcps.json)
